@@ -14,6 +14,7 @@ public class PWStrengthUnitTest {
     private Validator one;
     private Validator two;
     private Validator three;
+    
     @Before
     public void setUp(){
         one = new Validator("password");
